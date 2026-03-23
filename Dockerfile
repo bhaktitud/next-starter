@@ -39,5 +39,5 @@ COPY --from=builder /app/package.json ./package.json
 USER nextjs
 EXPOSE 3000
 
-# Next.js secara default jalan di port 3000
-CMD ["node", "node_modules/.bin/next", "start"]
+# Opsi A: Cara paling standar untuk Next.js
+CMD ["node", "node_modules/next/dist/bin/next", "start"]
