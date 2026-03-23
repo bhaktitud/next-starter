@@ -5,8 +5,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1>App: {name}</h1>
-      <p>Version: {version}</p>
+      <h1>HELLOW WOOOOORLD OF DESTRUCTION!</h1>
     </div>
   );
 }
